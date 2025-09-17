@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Declaración de Amor Animada ✨</title>
+    <title>Perdon Nicol</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -280,7 +280,7 @@
     </div>
 
     <!-- Reproductor de audio -->
-    <audio autoplay style="display: none;">
+    <audio autoplay loop style="display: none;">
         <source src="Eminem - Mockingbird (sub. español) - forever shady.mp3" type="audio/mpeg">
         Tu navegador no soporta el elemento de audio.
     </audio>
@@ -321,6 +321,7 @@
         const minutesElem = document.getElementById('minutes');
         const secondsElem = document.getElementById('seconds');
         const startButton = document.getElementById('startButton');
+        const playAudioButton = document.getElementById('playAudioButton');
         const imageElement = document.querySelector('.heart-image');
 
         let liveCounterInterval = null;
